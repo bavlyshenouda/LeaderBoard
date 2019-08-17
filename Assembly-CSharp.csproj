@@ -53,6 +53,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ArabicSupport\ArabicSupport.cs" />
+     <Compile Include="Assets\ArabicSupport\Scripts\Fix3dTextCS.cs" />
+     <Compile Include="Assets\ArabicSupport\Scripts\FixGUITextCS.cs" />
+     <Compile Include="Assets\ArabicSupport\Scripts\SetArabicTextExample.cs" />
      <Compile Include="Assets\Scripts\Main.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/pc/Desktop/The Shit/Rally/Rally Leaders Board/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
