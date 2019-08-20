@@ -15,8 +15,8 @@ public class tile : MonoBehaviour {
     public string score;
     public string rank;
     public GameObject pic;
-    public Text txt;
-    public Text rankTxt;
+    public TextMesh txt;
+    public TextMesh rankTxt;
 	// Use this for initialization
 	void Start () {
         Debug.Log(animal);
