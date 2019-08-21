@@ -24,10 +24,15 @@ public class tile : MonoBehaviour {
         Debug.Log(picMat);
         pic.GetComponent<Renderer>().material = picMat;
         txt.text = ArabicFixer.Fix(name + " : " + score);
-	}
+        rankTxt.text = ArabicFixer.Fix("#"+rank);
+        txt.transform.Translate(0, -8 - (System.Convert.ToInt32(rank)*2.2f), 0);
+        rankTxt.transform.Translate(0, -8 - (System.Convert.ToInt32(rank) * 2.2f), 0);
+    }
 	
 	// Update is called once per frame
 	void Update () {
         transform.Translate(0, Time.deltaTime*0.5f ,0);
+        txt.transform.Translate(0, Time.deltaTime*1.25f, 0);
+        rankTxt.transform.Translate(0, Time.deltaTime*1.25f, 0);
 	}
 }

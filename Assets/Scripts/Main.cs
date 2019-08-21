@@ -41,7 +41,7 @@ public class Main : MonoBehaviour {
             float yLoc = (float)(-4 - ((rank - 1) * 0.9));
             Vector3 loc = new Vector3(0, yLoc, 0);
             Instantiate(titlePrefab, loc, Quaternion.identity);
-            rank++;
+            rank = rank +1;
 
         }
     }
